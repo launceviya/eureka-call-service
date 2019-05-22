@@ -1,4 +1,4 @@
-package org.lanren.idgenerator;
+package org.lanren.test;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

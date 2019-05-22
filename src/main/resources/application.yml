@@ -1,10 +1,8 @@
 server:
-  port: 8080
+  port: 6666
 #eureka config#
 eureka:
   client:
-    register-with-eureka: true
-    fetch-registry: true
     service-url:
       defaultZone: http://192.168.1.112:1111/eureka
   instance:
@@ -13,4 +11,4 @@ eureka:
     prefer-ip-address: true
 spring:
   application:
-    name: id-generator
+    name: call-service
